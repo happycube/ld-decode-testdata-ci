@@ -791,6 +791,119 @@
     }
   },
   {
+    "band_percentage": 95.0,
+    "capture": "radius/domesday-ds1-community-north-outer.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 58,
+    "disc": "BBC Domesday DD86-DS1 Community North",
+    "disc_format": "CAV",
+    "label": "domesday-ds1-community-north-outer",
+    "radius_band": "outer",
+    "same_parity_fields": 29,
+    "side": "1",
+    "size_bytes": 38287236,
+    "source_capture": "Domesday_DD86-DS1_CommunityNorth_20191014_CAV_PAL_00001-54000.ldf",
+    "source_file_frames": [
+      51657,
+      51686
+    ],
+    "source_library": "BBC_AIV/Domesday/Domesday_DS1",
+    "spin_up": 345,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.989,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
     "band_percentage": 5.0,
     "capture": "radius/domesday-ds2-community-north-inner.ldf",
     "cut_length_frames": 30,
