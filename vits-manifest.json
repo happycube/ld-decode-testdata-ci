@@ -1,0 +1,1738 @@
+[
+  {
+    "capture": "ntsc/ggv-ntsc-mb-v2800.ldf",
+    "disc_format": "CAV",
+    "frames": 6,
+    "label": "ntsc/ggv-ntsc-mb-v2800.ldf",
+    "probe_length_frames": 14,
+    "probe_percentages": [
+      0.0
+    ],
+    "samples": 9338880,
+    "spin_up": -999,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-fcc-multiburst": {
+        "at_every_radius": true,
+        "best_score": 0.998,
+        "carried": true,
+        "field_lines": [
+          22,
+          23,
+          24
+        ],
+        "fields": 24,
+        "parities": [
+          1,
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.992,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 4,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 4,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 4,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 4,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "capture": "ntsc/issue176.ldf",
+    "disc_format": "CLV",
+    "frames": 4,
+    "label": "ntsc/issue176.ldf",
+    "probe_length_frames": 10,
+    "probe_percentages": [
+      0.0
+    ],
+    "samples": 6651904,
+    "spin_up": null,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.981,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 4,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 4,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 4,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 4,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "capture": "ntsc/ve-monitor.ldf",
+    "disc_format": "CAV",
+    "frames": 91,
+    "label": "ntsc/ve-monitor.ldf",
+    "probe_length_frames": 14,
+    "probe_percentages": [
+      0.0
+    ],
+    "samples": 121454788,
+    "spin_up": -46616,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.991,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 13,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 13,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 13,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 13,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "capture": "ntsc/ve-snw-cut.ldf",
+    "disc_format": "CAV",
+    "frames": 29,
+    "label": "ntsc/ve-snw-cut.ldf",
+    "probe_length_frames": 14,
+    "probe_percentages": [
+      0.0
+    ],
+    "samples": 40009728,
+    "spin_up": -30249,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.991,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 14,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 14,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 14,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 14,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "capture": "pal/ggv-mb-1khz.ldf",
+    "disc_format": "CAV",
+    "frames": 24,
+    "label": "pal/ggv-mb-1khz.ldf",
+    "probe_length_frames": 14,
+    "probe_percentages": [
+      0.0
+    ],
+    "samples": 39993344,
+    "spin_up": -754,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 11,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 11,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 11,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 11,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.99,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 11,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 11,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "capture": "pal/jason-testpattern.ldf",
+    "disc_format": "CAV",
+    "frames": 4,
+    "label": "pal/jason-testpattern.ldf",
+    "probe_length_frames": 10,
+    "probe_percentages": [
+      0.0
+    ],
+    "samples": 7979008,
+    "spin_up": -52498,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 3,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 3,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 3,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 3,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.99,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 3,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 3,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "capture": "pal/kagemusha-leadout-cbar.ldf",
+    "disc_format": null,
+    "frames": 9,
+    "label": "pal/kagemusha-leadout-cbar.ldf",
+    "probe_length_frames": 10,
+    "probe_percentages": [
+      0.0
+    ],
+    "samples": 15990784,
+    "spin_up": null,
+    "system": "PAL",
+    "vits": {}
+  },
+  {
+    "band_percentage": 5.0,
+    "capture": "radius/dolby-surround-side1-inner.ldf",
+    "cut_length_frames": 20,
+    "decoded_fields": 40,
+    "disc": "Checking Dolby Surround",
+    "disc_format": "CAV",
+    "label": "dolby-surround-side1-inner",
+    "radius_band": "inner",
+    "same_parity_fields": 20,
+    "side": "1",
+    "size_bytes": 16355468,
+    "source_capture": "CheckingDolbySurround_CAV_NTSC_side1_2021-01-04_22-08-00.ldf",
+    "source_file_frames": [
+      2804,
+      2823
+    ],
+    "source_library": "LDV4300D_1/NTSC/CheckingDolbySurround",
+    "spin_up": 454,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.992,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 50.0,
+    "capture": "radius/dolby-surround-side1-middle.ldf",
+    "cut_length_frames": 20,
+    "decoded_fields": 38,
+    "disc": "Checking Dolby Surround",
+    "disc_format": "CAV",
+    "label": "dolby-surround-side1-middle",
+    "radius_band": "middle",
+    "same_parity_fields": 19,
+    "side": "1",
+    "size_bytes": 20913480,
+    "source_capture": "CheckingDolbySurround_CAV_NTSC_side1_2021-01-04_22-08-00.ldf",
+    "source_file_frames": [
+      23959,
+      23978
+    ],
+    "source_library": "LDV4300D_1/NTSC/CheckingDolbySurround",
+    "spin_up": 454,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.994,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 19,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 19,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 19,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 19,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 95.0,
+    "capture": "radius/dolby-surround-side1-outer.ldf",
+    "cut_length_frames": 20,
+    "decoded_fields": 40,
+    "disc": "Checking Dolby Surround",
+    "disc_format": "CAV",
+    "label": "dolby-surround-side1-outer",
+    "radius_band": "outer",
+    "same_parity_fields": 20,
+    "side": "1",
+    "size_bytes": 23239340,
+    "source_capture": "CheckingDolbySurround_CAV_NTSC_side1_2021-01-04_22-08-00.ldf",
+    "source_file_frames": [
+      45114,
+      45133
+    ],
+    "source_library": "LDV4300D_1/NTSC/CheckingDolbySurround",
+    "spin_up": 454,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.993,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 5.0,
+    "capture": "radius/domesday-ds2-community-north-inner.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 50,
+    "disc": "BBC Domesday DD86-DS2 Community North",
+    "disc_format": "CAV",
+    "label": "domesday-ds2-community-north-inner",
+    "radius_band": "inner",
+    "same_parity_fields": 25,
+    "side": "1",
+    "size_bytes": 25607966,
+    "source_capture": "Domesday_DD86-DS2_CommunityNorth_20191014_CAV_PAL_00001-54000.ldf",
+    "source_file_frames": [
+      3036,
+      3065
+    ],
+    "source_library": "BBC_AIV/Domesday/Domesday_DS2",
+    "spin_up": 336,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 25,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 25,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 25,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 25,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.99,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 25,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 25,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 50.0,
+    "capture": "radius/domesday-ds2-community-north-middle.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 58,
+    "disc": "BBC Domesday DD86-DS2 Community North",
+    "disc_format": "CAV",
+    "label": "domesday-ds2-community-north-middle",
+    "radius_band": "middle",
+    "same_parity_fields": 29,
+    "side": "1",
+    "size_bytes": 36068349,
+    "source_capture": "Domesday_DD86-DS2_CommunityNorth_20191014_CAV_PAL_00001-54000.ldf",
+    "source_file_frames": [
+      27336,
+      27365
+    ],
+    "source_library": "BBC_AIV/Domesday/Domesday_DS2",
+    "spin_up": 336,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.99,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 95.0,
+    "capture": "radius/domesday-ds2-community-north-outer.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 58,
+    "disc": "BBC Domesday DD86-DS2 Community North",
+    "disc_format": "CAV",
+    "label": "domesday-ds2-community-north-outer",
+    "radius_band": "outer",
+    "same_parity_fields": 29,
+    "side": "1",
+    "size_bytes": 38259338,
+    "source_capture": "Domesday_DD86-DS2_CommunityNorth_20191014_CAV_PAL_00001-54000.ldf",
+    "source_file_frames": [
+      51636,
+      51665
+    ],
+    "source_library": "BBC_AIV/Domesday/Domesday_DS2",
+    "spin_up": 336,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 28,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.991,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 5.0,
+    "capture": "radius/ggv1011-side1-inner.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 60,
+    "disc": "Pioneer GGV1011",
+    "disc_format": "CAV",
+    "label": "ggv1011-side1-inner",
+    "radius_band": "inner",
+    "same_parity_fields": 30,
+    "side": "1",
+    "size_bytes": 30345818,
+    "source_capture": "GGV1011_CAV_PAL_side1_DD1_2019-06-12_20-18-21.ldf",
+    "source_file_frames": [
+      1429,
+      1458
+    ],
+    "source_library": "Calibration/GGV1011",
+    "spin_up": 229,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 30,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 30,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 30,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 30,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.99,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 30,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 30,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 50.0,
+    "capture": "radius/ggv1011-side1-middle.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 54,
+    "disc": "Pioneer GGV1011",
+    "disc_format": "CAV",
+    "label": "ggv1011-side1-middle",
+    "radius_band": "middle",
+    "same_parity_fields": 27,
+    "side": "1",
+    "size_bytes": 32276885,
+    "source_capture": "GGV1011_CAV_PAL_side1_DD1_2019-06-12_20-18-21.ldf",
+    "source_file_frames": [
+      12236,
+      12265
+    ],
+    "source_library": "Calibration/GGV1011",
+    "spin_up": 229,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 27,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 27,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 27,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 27,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.99,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 27,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 27,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 95.0,
+    "capture": "radius/ggv1011-side1-outer.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 58,
+    "disc": "Pioneer GGV1011",
+    "disc_format": "CAV",
+    "label": "ggv1011-side1-outer",
+    "radius_band": "outer",
+    "same_parity_fields": 29,
+    "side": "1",
+    "size_bytes": 33064571,
+    "source_capture": "GGV1011_CAV_PAL_side1_DD1_2019-06-12_20-18-21.ldf",
+    "source_file_frames": [
+      23042,
+      23071
+    ],
+    "source_library": "Calibration/GGV1011",
+    "spin_up": 229,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.991,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 5.0,
+    "capture": "radius/ggv1069-side1-inner.ldf",
+    "cut_length_frames": 20,
+    "decoded_fields": 38,
+    "disc": "Pioneer GGV1069",
+    "disc_format": "CAV",
+    "label": "ggv1069-side1-inner",
+    "radius_band": "inner",
+    "same_parity_fields": 19,
+    "side": "1",
+    "size_bytes": 17502228,
+    "source_capture": "Pioneer GGV1069_CAV_NTSC_side1_dup1_2019-09-12_21-11-38.ldf",
+    "source_file_frames": [
+      1545,
+      1564
+    ],
+    "source_library": "Calibration/GGV1069",
+    "spin_up": 285,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-fcc-multiburst": {
+        "at_every_radius": true,
+        "best_score": 0.999,
+        "carried": true,
+        "field_lines": [
+          22,
+          23,
+          24
+        ],
+        "fields": 114,
+        "parities": [
+          1,
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.992,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 19,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 19,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 19,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 19,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 50.0,
+    "capture": "radius/ggv1069-side1-middle.ldf",
+    "cut_length_frames": 20,
+    "decoded_fields": 40,
+    "disc": "Pioneer GGV1069",
+    "disc_format": "CAV",
+    "label": "ggv1069-side1-middle",
+    "radius_band": "middle",
+    "same_parity_fields": 20,
+    "side": "1",
+    "size_bytes": 17818288,
+    "source_capture": "Pioneer GGV1069_CAV_NTSC_side1_dup1_2019-09-12_21-11-38.ldf",
+    "source_file_frames": [
+      12888,
+      12907
+    ],
+    "source_library": "Calibration/GGV1069",
+    "spin_up": 285,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.992,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 95.0,
+    "capture": "radius/ggv1069-side1-outer.ldf",
+    "cut_length_frames": 20,
+    "decoded_fields": 38,
+    "disc": "Pioneer GGV1069",
+    "disc_format": "CAV",
+    "label": "ggv1069-side1-outer",
+    "radius_band": "outer",
+    "same_parity_fields": 19,
+    "side": "1",
+    "size_bytes": 18860542,
+    "source_capture": "Pioneer GGV1069_CAV_NTSC_side1_dup1_2019-09-12_21-11-38.ldf",
+    "source_file_frames": [
+      24231,
+      24250
+    ],
+    "source_library": "Calibration/GGV1069",
+    "spin_up": 285,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.992,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 19,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 19,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 19,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 19,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  }
+]
