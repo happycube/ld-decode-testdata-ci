@@ -1683,6 +1683,273 @@
     }
   },
   {
+    "band_percentage": 5.0,
+    "capture": "radius/ggv1069-side1-ldv4300d-inner.ldf",
+    "cut_length_frames": 20,
+    "decoded_fields": 40,
+    "disc": "Pioneer GGV1069",
+    "disc_format": "CAV",
+    "label": "ggv1069-side1-ldv4300d-inner",
+    "radius_band": "inner",
+    "same_parity_fields": 20,
+    "side": "1",
+    "size_bytes": 17400422,
+    "source_capture": "GGV1069_side1_2025-11-18_19-59-37.ldf",
+    "source_file_frames": [
+      1560,
+      1579
+    ],
+    "source_library": "LDV4300D_1/NTSC/Calibration Discs",
+    "spin_up": 295,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-fcc-multiburst": {
+        "at_every_radius": true,
+        "best_score": 0.999,
+        "carried": true,
+        "field_lines": [
+          22,
+          23,
+          24
+        ],
+        "fields": 120,
+        "parities": [
+          1,
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.992,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 50.0,
+    "capture": "radius/ggv1069-side1-ldv4300d-middle.ldf",
+    "cut_length_frames": 20,
+    "decoded_fields": 38,
+    "disc": "Pioneer GGV1069",
+    "disc_format": "CAV",
+    "label": "ggv1069-side1-ldv4300d-middle",
+    "radius_band": "middle",
+    "same_parity_fields": 19,
+    "side": "1",
+    "size_bytes": 17662954,
+    "source_capture": "GGV1069_side1_2025-11-18_19-59-37.ldf",
+    "source_file_frames": [
+      12945,
+      12964
+    ],
+    "source_library": "LDV4300D_1/NTSC/Calibration Discs",
+    "spin_up": 295,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.991,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 19,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 19,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 19,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 19,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 95.0,
+    "capture": "radius/ggv1069-side1-ldv4300d-outer.ldf",
+    "cut_length_frames": 20,
+    "decoded_fields": 40,
+    "disc": "Pioneer GGV1069",
+    "disc_format": "CAV",
+    "label": "ggv1069-side1-ldv4300d-outer",
+    "radius_band": "outer",
+    "same_parity_fields": 20,
+    "side": "1",
+    "size_bytes": 18913179,
+    "source_capture": "GGV1069_side1_2025-11-18_19-59-37.ldf",
+    "source_file_frames": [
+      24330,
+      24349
+    ],
+    "source_library": "LDV4300D_1/NTSC/Calibration Discs",
+    "spin_up": 295,
+    "system": "NTSC",
+    "vits": {
+      "ntsc-ntc7-combination": {
+        "at_every_radius": true,
+        "best_score": 0.991,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-ntc7-composite": {
+        "at_every_radius": true,
+        "best_score": 0.917,
+        "carried": true,
+        "field_lines": [
+          13
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "ntsc-virs-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 20,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
     "band_percentage": 50.0,
     "capture": "radius/ggv1069-side1-middle.ldf",
     "cut_length_frames": 20,
@@ -1839,6 +2106,345 @@
           19
         ],
         "fields": 19,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 5.0,
+    "capture": "radius/industrial-lv-side1-inner.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 56,
+    "disc": "Pioneer Industrial LaserDisc LaserVision System",
+    "disc_format": "CAV",
+    "label": "industrial-lv-side1-inner",
+    "radius_band": "inner",
+    "same_parity_fields": 28,
+    "side": "1",
+    "size_bytes": 28213538,
+    "source_capture": "The_Industrial_LaserDisc_LaserVision_System_CAV_PAL_side1_Pioneer_2021-06-10_15-53-21.ldf",
+    "source_file_frames": [
+      2235,
+      2264
+    ],
+    "source_library": "LDV4300D_1/PAL/The Industrial LaserDisc LaserVision System",
+    "spin_up": 305,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 28,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 28,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 28,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 28,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.967,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 28,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 28,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 50.0,
+    "capture": "radius/industrial-lv-side1-middle.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 54,
+    "disc": "Pioneer Industrial LaserDisc LaserVision System",
+    "disc_format": "CAV",
+    "label": "industrial-lv-side1-middle",
+    "radius_band": "middle",
+    "same_parity_fields": 27,
+    "side": "1",
+    "size_bytes": 34004935,
+    "source_capture": "The_Industrial_LaserDisc_LaserVision_System_CAV_PAL_side1_Pioneer_2021-06-10_15-53-21.ldf",
+    "source_file_frames": [
+      19614,
+      19643
+    ],
+    "source_library": "LDV4300D_1/PAL/The Industrial LaserDisc LaserVision System",
+    "spin_up": 305,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 27,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 27,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 27,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 27,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.967,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 27,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 27,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "band_percentage": 95.0,
+    "capture": "radius/industrial-lv-side1-outer.ldf",
+    "cut_length_frames": 30,
+    "decoded_fields": 58,
+    "disc": "Pioneer Industrial LaserDisc LaserVision System",
+    "disc_format": "CAV",
+    "label": "industrial-lv-side1-outer",
+    "radius_band": "outer",
+    "same_parity_fields": 29,
+    "side": "1",
+    "size_bytes": 36874526,
+    "source_capture": "The_Industrial_LaserDisc_LaserVision_System_CAV_PAL_side1_Pioneer_2021-06-10_15-53-21.ldf",
+    "source_file_frames": [
+      36992,
+      37021
+    ],
+    "source_library": "LDV4300D_1/PAL/The Industrial LaserDisc LaserVision System",
+    "spin_up": 305,
+    "system": "PAL",
+    "vits": {
+      "pal-blanked-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-blanked-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          22
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field1": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-its-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          19
+        ],
+        "fields": 29,
+        "parities": [
+          2
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field1": {
+        "at_every_radius": true,
+        "best_score": 0.967,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 29,
+        "parities": [
+          1
+        ],
+        "probes": [
+          0
+        ]
+      },
+      "pal-multiburst-field2": {
+        "at_every_radius": true,
+        "best_score": 1.0,
+        "carried": true,
+        "field_lines": [
+          20
+        ],
+        "fields": 29,
         "parities": [
           2
         ],

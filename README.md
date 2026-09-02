@@ -8,7 +8,7 @@ This is intended for non-infringing/fair use research usage to support ld-decode
 
 ## The radius sweep
 
-`radius/` holds twelve cuts taken from four discs at three radii each, plus one extra. They are
+`radius/` holds eighteen cuts taken from six discs at three radii each, plus one extra. They are
 needed by CI/CD: the modulation transfer function of a LaserDisc changes with radius, so a decoder
 can pass every conformance check at one radius and fail at another, and a suite that only ever sees
 one radius cannot tell the difference between a correct decoder and a decoder tuned to one part of
@@ -28,18 +28,54 @@ repository, hold it as release assets, or leave it on a maintainer's machine. Th
 CI-critical rather than optional, so a lane that could silently skip it would defeat the purpose;
 one repository keeps the captures and the manifest that describes them versioned together. The cost
 is accepted knowingly: the repository goes from 196 MB to 492 MB, and every checkout, clone and
-cache restore carries it.
+cache restore carries it. Closing the single-image gates later the same day added a further 146 MB
+of captures on the same reasoning: a gate resting on one disc image is a gate that cannot fail for
+the right reason. The two lanes that cost no capture data at all were taken first, and the six cuts
+were chosen as the fewest that leave no gate on one image.
 
 Each cut is 30 frames (PAL) or 20 frames (NTSC), sized so that a decode yields at least ten
 same-parity fields, which is what the coherent averaging in the conformance runner needs. Cuts are
 taken at 5 %, 50 % and 95 % of the *recorded band* — that is, past the spin-up offset between the
 start of the capture and disc frame 1, which is measured rather than assumed.
 
+## No gate on one disc image
+
+The sweep began as four discs, and that left rows of the conformance baseline resting on a single
+capture. Two allowances — `multiburst_flatness` and `multiburst_out_of_band_response` on NTSC —
+were measured on `ggv1069-side1-inner` alone, because the FCC multiburst is the only NTSC train
+whose amplitudes are admissible at this field count and no other capture here carried it. A row
+measured on one cut cannot tell an allowance that holds from an allowance that happens to fit one
+disc.
+
+Two discs and two lanes close that, added 2026-09-02:
+
+- **`ggv1069-side1-ldv4300d-*`** — the same GGV1069 pressing as `ggv1069-side1-*`, read on a
+  different player six years later. Same pressing, different capture chain: where the two disagree
+  the difference is the capture and not the decoder, which nothing else here can establish. Its
+  inner cut is a second FCC multiburst.
+- **`industrial-lv-side1-*`** — Pioneer's Industrial LaserDisc/LaserVision System disc, a
+  non-Domesday PAL pressing. Every PAL row of the baseline was measured on GGV1011 and Domesday, so
+  a fault of the Domesday mastering and a fault of the decoder read the same. It is also the first
+  disc here carrying the `PAL_MULTIBURST_IEC` frequency set — packets 1 to 5 land within 0.07 MHz
+  of the IEC nominals, where every other PAL disc here carries the ITU set.
+- **`ntsc/ggv-ntsc-mb-v2800.ldf`** and **`ntsc/ve-monitor.ldf`** are judged by the conformance lane
+  as whole captures. Both were already here with nothing reading them, so they cost no new capture
+  data; `ggv-ntsc-mb-v2800` is a third FCC multiburst reading and `ve-monitor` decodes to 178
+  fields, more than four times any radius cut.
+
+Discs rejected while choosing these, recorded so the work is not repeated. National Gallery of Art
+sides 1 and 2 carry every NTSC luminance level about 7 % low at all three radii — white reference
+92.9 IRE against 100, the 50 IRE zone at 46.1, the grey pedestal at 45.3 — while every chrominance
+level passes, so its absolute-level checks fail for a reason that is the pressing's and not the
+decoder's. Dragon's Lair, Space Ace, Firefox and Apple Visual Almanac hold no fixed offset between
+file frame and disc frame; on Dragon's Lair it drifts from 818 to 8071 file frames across the side,
+so a position in the file no longer names a radius and a "95 %" cut would not be one.
+
 ## vits-manifest.json
 
 `vits-manifest.json` records what VITS each capture in this repository actually carries, measured
 by `analysis/vits_inventory.py` rather than assumed from the line numbers the standards state —
-real discs move these signals, and two of the four discs here do.
+real discs move these signals, and three of the six discs here do.
 
 The conformance runner reads it (`--manifest`) so that a check it never got to attempt is reported
 as `skipped: capture carries no <signal>` instead of passing over in silence, and so that a capture
@@ -86,5 +122,11 @@ captures that predate this survey is recorded nowhere, so it is left blank rathe
 | `radius/ggv1011-side1-middle.ldf` | Pioneer GGV1011 | 1 | PAL | CAV | Calibration/GGV1011 | 12236–12265 | 12007 | middle (50 %) | 229 | `pal-blanked-field1` line 22 F1; `pal-blanked-field2` line 22 F2; `pal-its-field1` line 19 F1; `pal-its-field2` line 19 F2; `pal-multiburst-field1` line 13 F1; `pal-multiburst-field2` line 13 F2 |
 | `radius/ggv1011-side1-outer.ldf` | Pioneer GGV1011 | 1 | PAL | CAV | Calibration/GGV1011 | 23042–23071 | 22813 | outer (95 %) | 229 | `pal-blanked-field1` line 22 F1; `pal-blanked-field2` line 22 F2; `pal-its-field1` line 19 F1; `pal-its-field2` line 19 F2; `pal-multiburst-field1` line 13 F1; `pal-multiburst-field2` line 13 F2 |
 | `radius/ggv1069-side1-inner.ldf` | Pioneer GGV1069 | 1 | NTSC | CAV | Calibration/GGV1069 | 1545–1564 | 1260 | inner (5 %) | 285 | `ntsc-fcc-multiburst` line 22/23/24 F1F2; `ntsc-ntc7-combination` line 13 F2; `ntsc-ntc7-composite` line 13 F1; `ntsc-virs-field1` line 19 F1; `ntsc-virs-field2` line 19 F2 |
+| `radius/ggv1069-side1-ldv4300d-inner.ldf` | Pioneer GGV1069 | 1 | NTSC | CAV | LDV4300D_1/NTSC/Calibration Discs | 1560–1579 | 1265 | inner (5 %) | 295 | `ntsc-fcc-multiburst` line 22/23/24 F1F2; `ntsc-ntc7-combination` line 13 F2; `ntsc-ntc7-composite` line 13 F1; `ntsc-virs-field1` line 19 F1; `ntsc-virs-field2` line 19 F2 |
+| `radius/ggv1069-side1-ldv4300d-middle.ldf` | Pioneer GGV1069 | 1 | NTSC | CAV | LDV4300D_1/NTSC/Calibration Discs | 12945–12964 | 12650 | middle (50 %) | 295 | `ntsc-ntc7-combination` line 13 F2; `ntsc-ntc7-composite` line 13 F1; `ntsc-virs-field1` line 19 F1; `ntsc-virs-field2` line 19 F2 |
+| `radius/ggv1069-side1-ldv4300d-outer.ldf` | Pioneer GGV1069 | 1 | NTSC | CAV | LDV4300D_1/NTSC/Calibration Discs | 24330–24349 | 24035 | outer (95 %) | 295 | `ntsc-ntc7-combination` line 13 F2; `ntsc-ntc7-composite` line 13 F1; `ntsc-virs-field1` line 19 F1; `ntsc-virs-field2` line 19 F2 |
 | `radius/ggv1069-side1-middle.ldf` | Pioneer GGV1069 | 1 | NTSC | CAV | Calibration/GGV1069 | 12888–12907 | 12603 | middle (50 %) | 285 | `ntsc-ntc7-combination` line 13 F2; `ntsc-ntc7-composite` line 13 F1; `ntsc-virs-field1` line 19 F1; `ntsc-virs-field2` line 19 F2 |
 | `radius/ggv1069-side1-outer.ldf` | Pioneer GGV1069 | 1 | NTSC | CAV | Calibration/GGV1069 | 24231–24250 | 23946 | outer (95 %) | 285 | `ntsc-ntc7-combination` line 13 F2; `ntsc-ntc7-composite` line 13 F1; `ntsc-virs-field1` line 19 F1; `ntsc-virs-field2` line 19 F2 |
+| `radius/industrial-lv-side1-inner.ldf` | Pioneer Industrial LaserDisc LaserVision System | 1 | PAL | CAV | LDV4300D_1/PAL/The Industrial LaserDisc LaserVision System | 2235–2264 | 1930 | inner (5 %) | 305 | `pal-blanked-field1` line 22 F1; `pal-blanked-field2` line 22 F2; `pal-its-field1` line 19 F1; `pal-its-field2` line 19 F2; `pal-multiburst-field1` line 20 F1; `pal-multiburst-field2` line 20 F2 |
+| `radius/industrial-lv-side1-middle.ldf` | Pioneer Industrial LaserDisc LaserVision System | 1 | PAL | CAV | LDV4300D_1/PAL/The Industrial LaserDisc LaserVision System | 19614–19643 | 19309 | middle (50 %) | 305 | `pal-blanked-field1` line 22 F1; `pal-blanked-field2` line 22 F2; `pal-its-field1` line 19 F1; `pal-its-field2` line 19 F2; `pal-multiburst-field1` line 20 F1; `pal-multiburst-field2` line 20 F2 |
+| `radius/industrial-lv-side1-outer.ldf` | Pioneer Industrial LaserDisc LaserVision System | 1 | PAL | CAV | LDV4300D_1/PAL/The Industrial LaserDisc LaserVision System | 36992–37021 | 36687 | outer (95 %) | 305 | `pal-blanked-field1` line 22 F1; `pal-blanked-field2` line 22 F2; `pal-its-field1` line 19 F1; `pal-its-field2` line 19 F2; `pal-multiburst-field1` line 20 F1; `pal-multiburst-field2` line 20 F2 |
